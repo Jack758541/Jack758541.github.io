@@ -11,10 +11,12 @@ let rm = new Vue({
 
         },
         styleFooter:{
-            height:'34px',
+            lineHeight:'18px',
             background:'#2EB738',
             fontSize: '16px',
-            color: '#F0F0F0'
+            color: '#F0F0F0',
+            textAlign: 'right',
+            padding: '8px 85px'
         }
     }
 })

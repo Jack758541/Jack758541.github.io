@@ -1,12 +1,12 @@
-import {bgColor,textColor,textFont} from 'number';
-
+//import {bgColor,textColor,textFont} from 'number';
+import * as number from '/number'
 let rm = new Vue({
     el:'#app',
     data:{
         styleApp:{
             width: '1280px',
             height: '1372px',
-            background: bgColor
+            background: number.bgColor
 
         },
         styleMain:{
@@ -14,19 +14,19 @@ let rm = new Vue({
         },
         styleFooter:{
             lineHeight: '18px',
-            background: textColor,
+            background: number.textColor,
             fontSize: '16px',
-            color:.bgColor,
+            color:number.bgColor,
             textAlign: 'right',
             padding: '8px 85px',
             margin: 0,
-            fontFamily: textFont
+            fontFamily: number.textFont
         },
         styleTitle:{
 
         },
         styleEnglish:{
-            fontFamily: textFont,
+            fontFamily: number.textFont,
             fontSize: '24px'
         }
     }

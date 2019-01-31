@@ -1,4 +1,4 @@
-import * as number from 'number';
+import * as number from 'number.js';
 
 let rm = new Vue({
     el:'#app',
@@ -6,27 +6,27 @@ let rm = new Vue({
         styleApp:{
             width: '1280px',
             height: '1372px',
-            background: bgColor
+            background: number.bgColor
 
         },
         styleMain:{
             padding: '80px 85px'
         },
         styleFooter:{
-            lineHeight:'18px',
-            background:textColor,
+            lineHeight: '18px',
+            background: number.textColor,
             fontSize: '16px',
-            color: bgColor,
+            color: number.bgColor,
             textAlign: 'right',
             padding: '8px 85px',
             margin: 0,
-            fontFamily:textFont
+            fontFamily: number.textFont
         },
         styleTitle:{
 
         },
         styleEnglish:{
-            fontFamily:textFont,
+            fontFamily: number.textFont,
             fontSize: '24px'
         }
     }

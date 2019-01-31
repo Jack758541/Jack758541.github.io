@@ -1,5 +1,5 @@
 //import {bgColor,textColor,textFont} from 'number';
-import * as number from '/number.js';
+import * as number from 'number.js';
 
 console.log(number.bgColor);
 let rm = new Vue({

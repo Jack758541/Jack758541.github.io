@@ -1,9 +1,9 @@
 let rm = new Vue({
     el:'#app',
     data:{
-        main:{
-            width: 1280,
-            height: 1372,
+        styleObject:{
+            width: '1280px',
+            height: '1372px',
             background: '#F0F0F0'
 
         }

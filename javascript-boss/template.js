@@ -1,6 +1,6 @@
 let rm = new Vue({
     el:'#app',
     data:{
-        test:'1122233'
+        test:'1122233',
     }
 })

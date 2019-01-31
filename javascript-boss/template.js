@@ -8,7 +8,7 @@ let rm = new Vue({
 
         },
         styleMain:{
-
+            padding: '80px 85px'
         },
         styleFooter:{
             lineHeight:'18px',
@@ -16,7 +16,8 @@ let rm = new Vue({
             fontSize: '16px',
             color: '#F0F0F0',
             textAlign: 'right',
-            padding: '8px 85px'
+            padding: '8px 85px',
+            margin: 0
         }
     }
 })

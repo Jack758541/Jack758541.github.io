@@ -1,4 +1,4 @@
-import JackTest from './module/jacktest.js';
+// import JackTest from './module/jacktest.js';
 import {text} from './module/jacktest.js';
 
 var rm = new Vue({
@@ -7,7 +7,7 @@ var rm = new Vue({
         styleApp:{
             width: '1280px',
             height: '1372px',
-            background: JackTest.background
+            background: text
 
         },
         styleMain:{

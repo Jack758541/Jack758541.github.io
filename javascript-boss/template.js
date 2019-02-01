@@ -1,50 +1,49 @@
-// import JackTest from './module/jacktest.js';
-import {text} from './module/jacktest.js';
+import JackTest from './module/jacktest.js';
 
-// var rm = new Vue({
-//     el:'#app',
-//     data:{
-//         styleApp:{
-//             width: '1280px',
-//             height: '1372px',
-//             background: text
+var rm = new Vue({
+    el:'#app',
+    data:{
+        styleApp:{
+            width: '1280px',
+            height: '1372px',
+            background: 
 
-//         },
-//         styleMain:{
-//             padding: '80px 85px',
-//             display: 'flex'
-//         },
-//         styleFooter:{
-//             lineHeight: '18px',
-//             background: JackTest.text,
-//             fontSize: '16px',
-//             color: JackTest.background,
-//             textAlign: 'right',
-//             padding: '8px 85px',
-//             margin: 0,
-//             fontFamily: JackTest.text
-//         },
-//         styleTitle:{
+        },
+        styleMain:{
+            padding: '80px 85px',
+            display: 'flex'
+        },
+        styleFooter:{
+            lineHeight: '18px',
+            background: JackTest.text,
+            fontSize: '16px',
+            color: JackTest.background,
+            textAlign: 'right',
+            padding: '8px 85px',
+            margin: 0,
+            fontFamily: JackTest.text
+        },
+        styleTitle:{
 
-//         },
-//         styleEnglish:{
-//             fontFamily: JackTest.font,
-//             fontSize: '24px',
-//             fontWeight:'bolder',
-//             color:JackTest.text
-//         },
-//         styleNine:{
-//             fontFamily: 'PingFang TC',
-//             fontSize: '56px',
-//             fontWeight:'bolder',
-//             color:JackTest.text
-//         },
-//         styleAround:{
-//             background:'#FFFFFF'
-//         },
-//         styleCenter:{
-//             margin: '0 30px',
-//             background:'#FFFFFF',
-//         }
-//     }
-// })
+        },
+        styleEnglish:{
+            fontFamily: JackTest.font,
+            fontSize: '24px',
+            fontWeight:'bolder',
+            color:JackTest.text
+        },
+        styleNine:{
+            fontFamily: 'PingFang TC',
+            fontSize: '56px',
+            fontWeight:'bolder',
+            color:JackTest.text
+        },
+        styleAround:{
+            background:'#FFFFFF'
+        },
+        styleCenter:{
+            margin: '0 30px',
+            background:'#FFFFFF',
+        }
+    }
+})

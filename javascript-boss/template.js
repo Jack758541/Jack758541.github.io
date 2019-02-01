@@ -1,4 +1,4 @@
-import number from 'number.js';
+import number from '/number';
 
 let rm = new Vue({
     el:'#app',

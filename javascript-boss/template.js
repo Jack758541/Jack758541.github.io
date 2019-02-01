@@ -1,4 +1,4 @@
-import number from "number.js";
+import JackTest from './module/jacktest';
 
 var rm = new Vue({
     el:'#app',
@@ -6,7 +6,7 @@ var rm = new Vue({
         styleApp:{
             width: '1280px',
             height: '1372px',
-            background: number.background
+            background: JackTest.background
 
         },
         styleMain:{
@@ -14,19 +14,19 @@ var rm = new Vue({
         },
         styleFooter:{
             lineHeight: '18px',
-            background: number.text,
+            background: JackTest.text,
             fontSize: '16px',
-            color: number.background,
+            color: JackTest.background,
             textAlign: 'right',
             padding: '8px 85px',
             margin: 0,
-            fontFamily: number.text
+            fontFamily: JackTest.text
         },
         styleTitle:{
 
         },
         styleEnglish:{
-            fontFamily: number.font,
+            fontFamily: JackTest.font,
             fontSize: '24px'
         }
     }

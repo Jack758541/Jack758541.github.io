@@ -6,8 +6,7 @@ var rm = new Vue({
         styleApp:{
             width: '1280px',
             height: '1372px',
-            background: 
-
+            background: JackTest.background
         },
         styleMain:{
             padding: '80px 85px',

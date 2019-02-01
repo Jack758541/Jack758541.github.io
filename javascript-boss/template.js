@@ -39,10 +39,11 @@ var rm = new Vue({
             color:JackTest.text
         },
         styleAround:{
-
+            background:'#FFFFFF'
         },
         styleCenter:{
-            padding: '0 30px'
+            padding: '0 30px',
+            background:'#FFFFFF'
         }
     }
 })

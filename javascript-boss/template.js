@@ -10,7 +10,8 @@ var rm = new Vue({
 
         },
         styleMain:{
-            padding: '80px 85px'
+            padding: '80px 85px',
+            display: 'flex'
         },
         styleFooter:{
             lineHeight: '18px',
@@ -36,6 +37,12 @@ var rm = new Vue({
             fontSize: '56px',
             fontWeight:'bolder',
             color:JackTest.text
+        },
+        styleAround:{
+
+        },
+        styleCenter:{
+            padding: '0 30px'
         }
     }
 })

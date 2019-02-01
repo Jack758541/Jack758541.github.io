@@ -42,8 +42,8 @@ var rm = new Vue({
             background:'#FFFFFF'
         },
         styleCenter:{
-            padding: '0 30px',
-            background:'#FFFFFF'
+            margin: '0 30px',
+            background:'#FFFFFF',
         }
     }
 })

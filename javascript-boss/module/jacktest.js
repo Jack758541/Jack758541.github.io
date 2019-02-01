@@ -1,3 +1,9 @@
-export const background = '#F0F0F0';
-export const text = '#2EB738';
-export const font = 'Helvetica Neue';
+const background = '#F0F0F0';
+const text = '#2EB738';
+const font = 'Helvetica Neue';
+
+export default {
+    background: background,
+    text: text,
+    font: font
+}

@@ -28,12 +28,12 @@ var rm = new Vue({
         styleEnglish:{
             fontFamily: JackTest.font,
             fontSize: '24px',
-            color:JackTest.background
+            color:JackTest.text
         },
         styleNine:{
             fontFamily: 'PingFang TC',
             fontSize: '56px',
-            color:JackTest.background
+            color:JackTest.text
         }
     }
 })

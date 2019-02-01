@@ -1,4 +1,5 @@
 import JackTest from './module/jacktest.js';
+import {text} from './module/jacktest.js';
 
 var rm = new Vue({
     el:'#app',

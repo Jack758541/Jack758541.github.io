@@ -1,0 +1,1 @@
+npm install && npm install -g @vue/cli && npm install bootstrap && npm install vuex --save && npm install vue-router  && pause

@@ -5,6 +5,9 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
+          <router-link class="nav-link" to="/">home</router-link>
+        </li>
+        <li class="nav-item">
           <router-link class="nav-link" to="/about">about</router-link>
         </li>
       </ul>

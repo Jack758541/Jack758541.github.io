@@ -1,6 +1,6 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.21/vue.min.js"></script>
-<script src="./module/jacktest.js" type="module"></script>
-<div id="app" :style="styleApp">
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.21/vue.min.js"></script> -->
+<!-- <script src="./module/jacktest.js" type="module"></script> -->
+<!-- <div id="app" :style="styleApp">
     <div id="main" :style="styleMain">
         <div id="title" :style="styleTitle">
             <p :style="styleNine">九九乘法表</p>
@@ -19,7 +19,10 @@
         Copyright © 2019 HexSchool. All rights reserved.
     </p>        
 </div>    
-<script src="template.js" type="module"></script>
+<script src="template.js" type="module"></script> -->
+
+<div style="background:#000000;position:relative;width: 100%;height: 100%;">
+</div>    
 <script>
     window.addEventListener('touchmove', () => {
         alert('touchmove');
@@ -27,4 +30,7 @@
     window.addEventListener('touchstart', () => {
         alert('touchstart');
     })
+    window.addEventListener('scroll', () => {
+        alert('scroll');
+    });
 </script>
